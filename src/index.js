@@ -51,7 +51,7 @@ const router = createBrowserRouter([
   },
 ], {
     // Dodanie basename
-    basename: process.env.PUBLIC_URL,
+    basename: "/rr-spa/"
 });
 
 
