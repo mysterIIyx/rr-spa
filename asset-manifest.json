@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rr-spa/static/css/main.0b612ece.css",
-    "main.js": "/rr-spa/static/js/main.8a09ddd4.js",
+    "main.js": "/rr-spa/static/js/main.e1f7e54d.js",
     "static/js/453.8196fac4.chunk.js": "/rr-spa/static/js/453.8196fac4.chunk.js",
     "static/media/header4.png": "/rr-spa/static/media/header4.27aa9a61319f41b50674.png",
     "static/media/header3.png": "/rr-spa/static/media/header3.0931b35002ba19ae2971.png",
@@ -9,11 +9,11 @@
     "static/media/header1.png": "/rr-spa/static/media/header1.5f34536e32935a32dbf8.png",
     "index.html": "/rr-spa/index.html",
     "main.0b612ece.css.map": "/rr-spa/static/css/main.0b612ece.css.map",
-    "main.8a09ddd4.js.map": "/rr-spa/static/js/main.8a09ddd4.js.map",
+    "main.e1f7e54d.js.map": "/rr-spa/static/js/main.e1f7e54d.js.map",
     "453.8196fac4.chunk.js.map": "/rr-spa/static/js/453.8196fac4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b612ece.css",
-    "static/js/main.8a09ddd4.js"
+    "static/js/main.e1f7e54d.js"
   ]
 }
