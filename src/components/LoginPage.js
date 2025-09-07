@@ -1,22 +1,23 @@
-import {Component} from 'react';
-import '../styles/css/LoginPage.css'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import '../styles/css/LoginPage.css';
 
-const basename = '/rr-spa';
+const LoginPage = () => {
+  const navigate = useNavigate();
 
-const handleLogout = () =>{
+  const handleLogout = () => {
     localStorage.removeItem('token');
-    window.location.href = `${basename}/admin`;
-    return false;
+    // Używamy hooka useNavigate do przekierowania
+    // 'replace: true' zapobiega dodawaniu nowej pozycji do historii przeglądarki
+    navigate('/admin', { replace: true });
+  };
+
+  return (
+    <div>
+      <h1>Login Page</h1>
+      <button onClick={handleLogout}>Logout</button>
+    </div>
+  );
 };
-class LoginPage extends Component {
-    render(){
-    return (
-        <div>
-            <h1>Login Page</h1>
-            <button onClick={handleLogout}>Logout</button>
-        </div>
-    );
-};
-}
 
 export default LoginPage;
