@@ -9,8 +9,7 @@ class Products extends Component {
         const renderProducts = products.map((product) => {
             return(
                 <div key={product} className="product-name">
-                    <img src="" alt=""></img>
-                    <NavLink to={`/product/${product}`}><h2><hr />{product}<hr /></h2></NavLink>
+                    <NavLink to={`/product/${product}`}><h2 className='h2-product-name'>{product}<hr /></h2></NavLink>
                 </div>
             )
         })
