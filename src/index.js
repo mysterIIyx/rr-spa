@@ -44,14 +44,14 @@ const router = createBrowserRouter([
         element: <LoginPage />,
       },
       {
-        path: "*",basename: process.env.PUBLIC_URL,
+        path: "*",
         element: <ErrorPage />,
       },
     ],
   },
 ], {
     // Dodanie basename
-    
+    basename: process.env.PUBLIC_URL,
 });
 
 
