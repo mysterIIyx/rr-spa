@@ -1,0 +1,91 @@
+.products
+    display: flex
+    flex-direction: column
+    justify-content: center
+    flex-grow: 1
+    max-width: 80vw
+    background-color: #fff
+    min-height: max-content
+    margin: 4em auto
+    .product-card
+        display: flex
+        flex-direction: column
+        margin: 10px auto
+        width: 70%
+        min-height: 40vh
+        height: 100%
+        background-color: #3231310b
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, .2)
+        border-radius: 10px
+        overflow: hidden
+    h1
+        font-size: 2.5em
+        font-weight: bold
+        text-align: center
+        margin: 20px auto
+        color: #022a26
+        text-transform: uppercase
+        font-family: 'Roboto', sans-serif
+    .product-name
+        display: flex
+        align-content: center
+        justify-content: center
+        flex-direction: column
+        font-size: 2em
+        font-weight: bold
+        margin: 5px auto
+        font-family: 'Roboto', sans-serif
+        width: 100%
+        min-height: max-content
+        height: 2em
+        hr
+            border: solid 0px #022a26
+            width: 0px // Domyślna szerokość
+            height: 2px
+            background-color: #022a26
+            transition: all .2s ease-in-out
+            position: relative // Pozycjonowanie względem .product-name
+            transition: all .3s ease-in-out
+        a
+            display: flex
+            text-decoration: none
+            width: 33%
+            height: 100%
+            margin: 0 auto
+            padding: 10px 50px 10px 5px
+            line-height: 1.5em
+            color: #022a26
+            font-family: 'Roboto', sans-serif
+            text-transform: uppercase
+            text-align: center
+            transition: all .3s ease-in-out
+            &:hover
+                cursor: pointer
+                color: #94105d
+        h2
+            display: flex
+            align-content: center
+            justify-content: center
+            flex-direction: column
+            text-decoration: none
+            font-size: 1.5em
+            font-weight: normal
+            line-height: 1.5em
+            color: #009688
+            font-family: 'Roboto', sans-serif
+            text-transform: uppercase
+            text-align: center
+            transition: all .3s ease-in-out
+            width: 100%
+            box-shadow: 1px 1px 6px rgba(0, 0, 0, .2)
+            &:hover
+                cursor: pointer
+                box-shadow: 1px 1px 6px rgba(0, 0, 0, .4)
+                color: #94105d
+                transition: all .3s ease-in-out
+                font-weight: bold
+                hr
+                    margin-top: 0px
+                    border: solid 2px #94105d
+                    transition: all .3s ease-in-out
+                    width: 100%// Animacja po najechaniu na .product-name    

@@ -1,0 +1,129 @@
+.contact {
+  background-color: #f5f5f5;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0px 0px 0px;
+}
+.contact .contact-card {
+  font-size: 1.8em;
+  color: #797979;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  line-height: 1.6em;
+  min-height: 100%;
+  width: 100%;
+}
+.contact .contact-card .contact-form {
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  min-width: 100px;
+  width: 70%;
+  margin: 0 auto;
+}
+.contact .contact-card .contact-form h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.6em;
+  text-align: center;
+  color: #02165a;
+}
+.contact .contact-card .contact-form input[type=text], .contact .contact-card .contact-form input[type=email] {
+  margin: 0.5em;
+  padding: 0.5em;
+  height: 3em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0980392157);
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+}
+.contact .contact-card .contact-form textarea {
+  margin: 0.5em;
+  padding: 0.5em;
+  height: 5em;
+  background-color: rgba(0, 0, 0, 0.0980392157);
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  resize: vertical;
+  width: 100%;
+}
+.contact .contact-card .contact-form button {
+  margin: 0.5em;
+  padding: 0.5em;
+  height: 3em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0980392157);
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition-property: background-color, color, -webkit-transform;
+  transition-property: background-color, color, -webkit-transform;
+  transition-property: background-color, color, transform;
+  transition-property: background-color, color, transform, -webkit-transform;
+}
+.contact .contact-card .contact-form button:hover {
+  background-color: rgba(0, 0, 0, 0.4588235294);
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition-property: background-color, color, -webkit-transform;
+  transition-property: background-color, color, -webkit-transform;
+  transition-property: background-color, color, transform;
+  transition-property: background-color, color, transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}/*# sourceMappingURL=Contact.css.map */

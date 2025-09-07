@@ -1,0 +1,82 @@
+.contact
+    background-color: #f5f5f5
+    flex-grow: 1
+    font-family: 'Roboto', sans-serif
+    display: flex
+    min-height: 100vh
+    flex-direction: column
+    justify-content: center
+    margin: 20px 0px 0px 0px
+    .contact-card
+        font-size: 1.8em
+        color: #797979
+        width: 100%
+        background-color: #fff
+        border-radius: 4px
+        box-shadow: 0 3px 6px rgba(0,0,0,.1)
+        display: flex
+        flex-direction: column
+        justify-content: center
+        flex-grow: 1
+        line-height: 1.6em
+        min-height: 100%
+        width: 100%
+        @media screen and (min-width: 768px)
+        .contact-form
+            padding: 2em
+            display: flex
+            flex-direction: column
+            justify-content: center
+            flex-grow: 1
+            min-width: 100px
+            width: 70%
+            margin: 0 auto
+            h1
+                font-weight: bold
+                font-size: 2em
+                margin-top: 0
+                margin-bottom: 0
+                line-height: 1.6em
+                text-align: center
+                color: #02165a
+            input[type="text"], input[type="email"]
+                margin: .5em
+                padding: .5em
+                height: 3em
+                width: 100%
+                background-color: #00000019
+                color: #000000
+                border: none
+                border-radius: 4px
+            textarea
+                margin: .5em
+                padding: .5em
+                height: 5em
+                background-color: #00000019
+                color: #000000
+                border: none
+                border-radius: 4px
+                flex-grow: 1
+                resize: vertical,
+                width: 100%  
+            button
+                margin: .5em
+                padding: .5em
+                height: 3em
+                width: 100%
+                background-color: #00000019
+                color: #000000
+                border: none
+                border-radius: 4px
+                transition: all .3s ease-in-out
+                transition-property: background-color, color, transform
+                &:hover
+                    background-color: #00000075
+                    color: #fff
+                    cursor: pointer
+                    transition: all .3s ease-in-out
+                    transition-property: background-color, color, transform
+                    transition-duration: .3s
+                    transition-timing-function: ease-in-out
+                    transform: scale(.95)
+         

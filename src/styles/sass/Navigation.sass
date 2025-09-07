@@ -1,0 +1,57 @@
+nav
+    background-color: #84c6f227
+    min-height: 100%
+    max-height: max-content
+    ul  
+        display: flex
+        flex-direction: column
+        list-style-type: none
+        text-decoration-line: none
+        li
+            list-style: none
+            display: flex
+            justify-content: center
+            align-items: center
+            text-transform: uppercase
+            font-weight: bold
+            font-size: 1.5rem
+            letter-spacing: 3px
+            margin: 0 
+            color: #3d0909404
+            padding: 8px 5px
+            width: 100%
+            height: auto
+            cursor: pointer
+            transition-duration: .5s
+        .none-active
+            transition: all .5s ease-in-out
+            &:hover
+                color: #d5ee1d
+                background-color: #052067
+                transform: translateX(0px)
+.active-home
+    color: #d5ee1d
+    border-left: #9307a5 8px solid
+    background-color: #05216787
+        
+.active-products
+    color: #d5ee1d
+    border-left: #187a89 8px solid
+    background-color: #05216787
+
+.active-contact
+    color: #d5ee1d
+    border-left: #d34c0e 8px solid
+    background-color: #05216787
+        
+.active-admin-panel
+    color: #d5ee1d
+    border-left: #098b30 8px solid
+    background-color: #05216787
+
+.active-home, .active-products, .active-contact, .active-admin-panel
+    transition: all .5s ease-in-out
+    transform: translateX(20px)
+    &:hover
+        transform: translateX(20px)
+        background-color: #043a5ea1
