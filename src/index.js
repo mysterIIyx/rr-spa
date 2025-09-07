@@ -49,7 +49,11 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+    // Dodanie basename
+    basename: "/rr-spa"
+});
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
