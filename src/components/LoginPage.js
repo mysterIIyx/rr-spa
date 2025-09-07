@@ -1,9 +1,11 @@
 import {Component} from 'react';
 import '../styles/css/LoginPage.css'
 
+const basename = '/rr-spa';
+
 const handleLogout = () =>{
     localStorage.removeItem('token');
-    window.location.href = `${window.location.origin}/admin`;
+    window.location.href = `${basename}/admin`;
     return false;
 };
 class LoginPage extends Component {

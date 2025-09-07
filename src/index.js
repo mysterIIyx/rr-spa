@@ -51,7 +51,7 @@ const router = createBrowserRouter([
   },
 ], {
     // Dodanie basename
-    basename: "/rr-spa/"
+    basename: "/rr-spa/",
 });
 
 
