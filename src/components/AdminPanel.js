@@ -23,7 +23,7 @@ class AdminPanel extends Component {
         const password = document.getElementById('password').value;
 
         if (username !== '' && password !== '') {
-            if (username === 'admin' && password === 'admin') {
+            if (username === this.state.username && password === this.state.password && permission === true) {
                 this.setState({ permission: true });
                 this.props.navigate('/login'); // Przekierowanie do strony logowania po udzieleniu uprawnień
                 alert("You have access to the admin panel");
