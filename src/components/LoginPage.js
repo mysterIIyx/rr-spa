@@ -3,7 +3,7 @@ import '../styles/css/LoginPage.css'
 
 const handleLogout = () =>{
     localStorage.removeItem('token');
-    window.location.href = '/admin';
+    window.location.href = `${window.location.origin}/admin`;
     return false;
 };
 class LoginPage extends Component {
